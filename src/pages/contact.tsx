@@ -1,12 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
-      <a href="https://github.com/ThomasP32" target="_blank" rel="noreferrer">
-        <img src={"src/assets/GitHub-Logos/GitHub_Logo.png"} alt="Contact" />
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+      <h1 className="text-3xl font-bold mb-6">Contact</h1>
+      <a
+        href="https://github.com/ThomasP32"
+        target="_blank"
+        rel="noreferrer"
+        className="hover:scale-110 transition-transform duration-300"
+      >
+        <img
+          src="assets/GitHub-Logos/GitHub_Logo.png"
+          alt="GitHub link"
+          className="w-48 h-auto drop-shadow-lg"
+        />
       </a>
     </div>
   );
