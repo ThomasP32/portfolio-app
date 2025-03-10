@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import MainPage from './pages/main-page.tsx';
 import About from './pages/about.tsx';
@@ -10,8 +9,8 @@ import Portfolio from './pages/portfolio.tsx';
 const App = () => {
   return (
     <Router>
-    <nav>
-      <ul>
+    <nav className="flex justify-between items-center p-8 bg-gray-800 text-white">
+      <ul className="flex justify-between items-center space-x-4">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/work">Work</Link></li>
