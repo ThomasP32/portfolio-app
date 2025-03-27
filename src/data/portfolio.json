@@ -1,0 +1,37 @@
+{
+    "portfolio": [
+        {
+        "id": 1,
+        "name": "Système embarqué - Robot",
+        "date_started" : "Janvier 2023",
+        "date_finished" : "Mai 2023",
+        "presentation": "Développement d’un système embarqué pour la navigation d’un robot autonome",
+        "description": " Conception et programmation d’un système embarqué pour la navigation d’un robot autonome. Collaboration en équipe de développement. Utilisation de C++ et Git pour assurer un suivi efficace du projet",
+        "technologies": ["C", "GIT", "Linux"],
+        "image": "",
+        "link":""
+        },
+        {
+        "id": 2,
+        "name": "GreenBasket",
+        "date_started" : "3 février 2024",
+        "date_finished" : "4 février 2024",
+        "presentation": "Application en ligne de gestion de pertes alimentaires",
+        "description": "GreenBasket propose aux utilisateurs une carte interactive personnalisée affichant les producteurs locaux, les marchés et les agriculteurs en fonction de leur position actuelle. De plus, les producteurs locaux peuvent s'inscrire sur le site pour vendre leurs récoltes excédentaires. D'autres sections du site encouragent des habitudes de consommation alimentaire plus écologiques et promeuvent la durabilité.",
+        "technologies": ["TypeScript", "NextJS", "TailwindCSS", "MongoDB", "GoogleMapAPI"],
+        "image": "",
+        "link": "https://devpost.com/software/greenbasket-mkjbsr"
+        },
+        {
+        "id": 3,
+        "name": "Steam & Steel Battlegrounds",
+        "date_started" : "septembre 2024",
+        "date_finished" : "décembre 2024",
+        "presentation": "Jeu en ligne multijoueur de style RPG",
+        "description": "",
+        "technologies": ["TypeScript","Angular", "NestJS", "MongoDB", "Socket.io", "GitLab"],
+        "image": "project-c.jpg",
+        "link": "https://github.com/ThomasP32/RPG_Website"
+        }
+    ]
+}
