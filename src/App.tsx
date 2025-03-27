@@ -5,12 +5,14 @@ import About from './pages/about.tsx';
 import Work from './pages/work.tsx';
 import Contact from './pages/contact.tsx';
 import Portfolio from './pages/portfolio.tsx';
+import './App.css';
+import './index.css';
 
 const App = () => {
   return (
     <Router>
-    <nav className="flex justify-between items-center p-8 bg-gray-800 text-white">
-      <ul className="flex justify-between items-center space-x-4">
+    <nav>
+      <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/work">Work</Link></li>

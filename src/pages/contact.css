@@ -1,0 +1,27 @@
+.links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.github-logo{
+    width: 300px;
+    height: 150px;
+}
+
+.linkedin{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.linkedin-logo{
+    width: 450px;
+    height: 150px;
+}

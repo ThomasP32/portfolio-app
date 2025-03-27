@@ -2,18 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "JetBrains Mono", monospace;
+  color: var(--color-darkest);
+  background-color: var(--color-background);
 }
 
-/* Body Styling */
-body {
-  background-color: #f4f4f4;
-  color: #333;
-}
 
 /* Navigation Bar */
 nav {
-  background: #222;
+  background: var(--color-darkest);
   padding: 15px 0;
   position: sticky;
   top: 0;
@@ -42,7 +39,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background: #f8b400;
+  background: var(--color-text);
   color: #222;
   border-radius: 5px;
 }
