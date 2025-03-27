@@ -1,21 +1,32 @@
 import React from "react";
+import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold mb-6">Contact</h1>
-      <a
-        href="https://github.com/ThomasP32"
-        target="_blank"
-        rel="noreferrer"
-        className="hover:scale-110 transition-transform duration-300"
-      >
-        <img
+    <div className="contact-container">
+      <h1 className="contact-title">Contact</h1>
+      <div className="links-container">
+        <a className="github"
+          href="https://github.com/ThomasP32"
+          target="_blank"
+          rel="noreferrer"
+        >
+        <img className="github-logo"
           src="assets/GitHub-Logos/GitHub_Logo.png"
           alt="GitHub link"
-          className="w-48 h-auto drop-shadow-lg"
         />
-      </a>
+        </a>
+        <a className="linkedin"
+          href="https://www.linkedin.com/in/thomas-perron-duveau-b60738264/"
+          target="_blank"
+          rel="noreferrer"
+        >
+        <img className="linkedin-logo"
+          src="assets/LI-Logo.png"
+          alt="LinkedIn link"
+        />
+        </a>
+      </div>
     </div>
   );
 };
